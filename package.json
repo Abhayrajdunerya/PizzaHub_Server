@@ -1,7 +1,11 @@
 {
-  "name": "server",
+  "name": "pizza_delivery_app_server",
   "version": "1.0.0",
   "license": "MIT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"    
+  },
   "dependencies": {
     "body-parser": "^1.20.2",
     "cloudinary": "^1.40.0",
